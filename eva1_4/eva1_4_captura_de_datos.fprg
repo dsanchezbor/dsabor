@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sanch"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-13 10:38:16 PM"/>
+        <attribute name="created" value="c2FuY2g7RUxNT05POzIwMjMtMDktMTM7MTA6MzE6NDIgUE07MjI1OA=="/>
+        <attribute name="edited" value="c2FuY2g7RUxNT05POzIwMjMtMDktMTM7MTA6Mzg6MTYgUE07MTsyMzc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Apellido" type="String" array="False" size=""/>
+            <output expression="&quot;Introduce tu apellido&quot;" newline="True"/>
+            <input variable="Apellido"/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <output expression="&quot;introduce tu nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <declare name="domicilio" type="String" array="False" size=""/>
+            <output expression="&quot;Ingresa tu domicilio&quot;" newline="True"/>
+            <input variable="domicilio"/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <declare name="promedio" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tu promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="domicilio" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

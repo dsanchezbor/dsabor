@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sanch"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-13 10:28:15 PM"/>
+        <attribute name="created" value="c2FuY2g7RUxNT05POzIwMjMtMDktMTM7MDY6Mzk6MzAgUE07MjI2OA=="/>
+        <attribute name="edited" value="c2FuY2g7RUxNT05POzIwMjMtMDktMTM7MTA6Mjg6MTUgUE07MTsyMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="84"/>
+            <output expression="&quot;Quiubo, soy mono&quot;" newline="True"/>
+            <output expression="&quot;Me gusta la nfl&quot;" newline="True"/>
+            <output expression="n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
