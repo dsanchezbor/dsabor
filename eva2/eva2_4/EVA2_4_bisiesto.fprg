@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sanch"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 07:21:37 PM"/>
+        <attribute name="created" value="c2FuY2g7RUxNT05POzIwMjMtMTAtMTA7MDc6MTE6MTQgUE07MjI1MA=="/>
+        <attribute name="edited" value="c2FuY2g7RUxNT05POzIwMjMtMTAtMTA7MDc6MjE6MzcgUE07MTsyMzY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="year" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el a&#241;o&quot;" newline="True"/>
+            <input variable="year"/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <assign variable="residuo" expression="year % 4"/>
+            <if expression="residuo = 0">
+                <then>
+                    <assign variable="residuo" expression="year % 100"/>
+                    <if expression="residuo = 0">
+                        <then>
+                            <assign variable="residuo" expression="year % 400"/>
+                            <if expression="residuo = 0">
+                                <then>
+                                    <output expression="&quot;Si es bisiesto&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;No es bisiesto&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;No es bisiesto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;NO es bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
